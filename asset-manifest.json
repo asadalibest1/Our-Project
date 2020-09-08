@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Dateb.ai/static/css/main.db137663.chunk.css",
+    "main.js": "/Dateb.ai/static/js/main.6ebe01e5.chunk.js",
+    "main.js.map": "/Dateb.ai/static/js/main.6ebe01e5.chunk.js.map",
+    "runtime-main.js": "/Dateb.ai/static/js/runtime-main.4211953d.js",
+    "runtime-main.js.map": "/Dateb.ai/static/js/runtime-main.4211953d.js.map",
+    "static/css/2.d3647f46.chunk.css": "/Dateb.ai/static/css/2.d3647f46.chunk.css",
+    "static/js/2.08d81ca7.chunk.js": "/Dateb.ai/static/js/2.08d81ca7.chunk.js",
+    "static/js/2.08d81ca7.chunk.js.map": "/Dateb.ai/static/js/2.08d81ca7.chunk.js.map",
+    "index.html": "/Dateb.ai/index.html",
+    "precache-manifest.78a75176428368e6e502dd69c414c864.js": "/Dateb.ai/precache-manifest.78a75176428368e6e502dd69c414c864.js",
+    "service-worker.js": "/Dateb.ai/service-worker.js",
+    "static/css/2.d3647f46.chunk.css.map": "/Dateb.ai/static/css/2.d3647f46.chunk.css.map",
+    "static/css/main.db137663.chunk.css.map": "/Dateb.ai/static/css/main.db137663.chunk.css.map",
+    "static/js/2.08d81ca7.chunk.js.LICENSE.txt": "/Dateb.ai/static/js/2.08d81ca7.chunk.js.LICENSE.txt",
+    "static/media/covide19.jpg": "/Dateb.ai/static/media/covide19.f5c6547a.jpg",
+    "static/media/expense.jpg": "/Dateb.ai/static/media/expense.8f78fcbb.jpg",
+    "static/media/header.css": "/Dateb.ai/static/media/head.e38f4b6c.jpg",
+    "static/media/image1.gif": "/Dateb.ai/static/media/image1.d8b3e1dc.gif",
+    "static/media/image2.png": "/Dateb.ai/static/media/image2.af3aff65.png",
+    "static/media/mousedown.gif": "/Dateb.ai/static/media/mousedown.5af703e4.gif",
+    "static/media/animate.scss": "/Dateb.ai/static/media/pic4.4a642b91.jpg",
+    "static/media/projects.css": "/Dateb.ai/static/media/projects.b468033c.png",
+    "static/media/react.png": "/Dateb.ai/static/media/react.8c2acb4e.png",
+    "static/media/shoe-store.jpg": "/Dateb.ai/static/media/shoe-store.0d2c0e39.jpg",
+    "static/media/webflex.jpg": "/Dateb.ai/static/media/webflex.348907a1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4211953d.js",
+    "static/css/2.d3647f46.chunk.css",
+    "static/js/2.08d81ca7.chunk.js",
+    "static/css/main.db137663.chunk.css",
+    "static/js/main.6ebe01e5.chunk.js"
+  ]
+}
