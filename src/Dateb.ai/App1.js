@@ -2,12 +2,15 @@ import React from 'react'
 import Appbar from './components/appbar'
 import Header from './components/header'
 import Side1 from './components/sidesPages/side1'
-import Side2 from './components/sidesPages/side2'
-import Side3 from './components/sidesPages/side3'
-// import OurServe from './components/sidesPages/ourServe'
-import Projects from './components/sidesPages/porfolioSlide/projects'
-import JoinUS from './components/sidesPages/joinUS'
+import Services from './components/services'
 import WhyChooseUs from './components/sidesPages/whyChooseUs'
+import Side2 from './components/sidesPages/side2'
+import OurServe from './components/sidesPages/ourServe'
+import Projects from './components/sidesPages/porfolioSlide/projects'
+import ThreeFeath from './components/threeFeath'
+import Side3 from './components/sidesPages/side3'
+import HaveProject from './components/haveProject'
+import JoinUS from './components/sidesPages/joinUS'
 import Footer from './components/footer'
 
 import AOS from 'aos';
@@ -23,10 +26,13 @@ export default function App1() {
             <Appbar />
             <Header />
             <Side1 />
+            <Services />
             <WhyChooseUs />
-            <Projects />
-            <Side3 />
             <Side2 />
+            <Projects />
+            <ThreeFeath />
+            <Side3 />
+            <HaveProject />
             <JoinUS />
             <Footer />
 

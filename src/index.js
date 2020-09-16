@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 
 import App from './Dateb.ai/App';
 
+// import App from './prac/textChangeAnimation/index'
 // import App from './prac/autoImageTextSlider/index'
 // import App from './prac/componenetTrans.js';
 // import App from './prac/awesomeSlider.js';

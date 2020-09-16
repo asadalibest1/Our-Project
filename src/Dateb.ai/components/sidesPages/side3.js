@@ -29,7 +29,7 @@ return(
             play={true}
             transitionDelay="700"
             cancelOnInteraction={false} // should stop playing on user interaction
-            interval={3000}
+            interval={4000}
                 buttons={false}
         //     bullets="true"
                 // fillParent="true"
@@ -38,24 +38,27 @@ return(
              <div>
                      <div>
                      <div className="slide1 img">
-
-                    <h2>So, are you Ready to Innovate and Grow</h2>
+                                <h2>Dateb.ai is a smarter way to book any kind<br />
+                                of move and to make your ideas turned into a reality and get<br />
+                                        your business online</h2>
                      </div>
                 </div>
              </div>
             <div>
                     <div>
                     <div className="slide2 img">
-
-                    <h2>So, are you Ready to Innovate and Grow</h2>
+                                 <h2>Dateb.ai has Expert Creatives<br />
+                                 Who Deliver and here to make your life easier<br />
+                                 <br />
+                                 — talk to us about how we can help.
+</h2>
                     </div>
                 </div>
             </div>
             <div>
                     <div>
                     <div className="slide3 img">
-
-                    <h2>So, are you Ready to Innovate and Grow</h2>
+                                 <h2>So, are you Ready to Innovate and Grow</h2>
                     </div>
                 </div>
             </div>

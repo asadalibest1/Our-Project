@@ -1,6 +1,5 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
-import Button from '@material-ui/core/Button';
 import "../css/slidestyle.css"
 
 {/* <style>svg#freepik_stories-company:not(.animated) .animable {opacity: 0;}svg#freepik_stories-company.animated #freepik--Shadows--inject-29 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;animation-delay: 0s;}svg#freepik_stories-company.animated #freepik--meeting-room--inject-29 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}svg#freepik_stories-company.animated #freepik--office-2--inject-29 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}svg#freepik_stories-company.animated #freepik--office-1--inject-29 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;animation-delay: 0s;}svg#freepik_stories-company.animated #freepik--room-for-printing--inject-29 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}svg#freepik_stories-company.animated #freepik--Plaque--inject-29 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedLeft;animation-delay: 0s;}            @keyframes slideRight {                0% {                    opacity: 0;                    transform: translateX(30px);                }                100% {                    opacity: 1;                    transform: translateX(0);                }            }                    @keyframes zoomIn {                0% {                    opacity: 0;                    transform: scale(0.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes zoomOut {                0% {                    opacity: 0;                    transform: scale(1.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes lightSpeedLeft {              from {                transform: translate3d(-50%, 0, 0) skewX(20deg);                opacity: 0;              }              60% {                transform: skewX(-10deg);                opacity: 1;              }              80% {                transform: skewX(2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }        .animator-hidden { display: none; }</style> */}
@@ -23,7 +22,7 @@ export default function Side2() {
           data-aos-once="false"
           data-aos-anchor-placement="top-bottom"
         >
-                <img className="slide-img" src={require('../images/image2.png')} alt="pic2"/>
+                <img className="slide-img" src={require('../images/0staf.png')} alt="pic2"/>
                         </Grid>    
 
 
@@ -42,8 +41,7 @@ export default function Side2() {
                 <p className="slide-para">
                 Contact us and know more about how our experts can help your business grow.
                 </p>
-                <Button variant="outlined" color="primary">Enquire Now</Button>
-            </div>
+                <div class="button button-2">Enquire Now</div></div>
         </Grid> 
     </Grid>
   </div>

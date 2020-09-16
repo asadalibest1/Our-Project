@@ -7,50 +7,61 @@ import Button from '@material-ui/core/Button';
 import {isMobile} from 'react-device-detect';
 import MobileMenu from './mobileMenu'
 // import anime from 'animejs/lib/anime.es.js';
+import DatebAnime from './datebAnime';
 
 const useStyles = makeStyles((theme) => ({
  
   menuButton: {
     display: "none",
-  },
-  
+  },  
 }));
 
 export default function ButtonAppBar() {
+  const [titleColor, changeTitleColor] = React.useState('white')
+  const [titleFont, changeTitleFont] = React.useState('')
   const classes = useStyles();
+ 
+ 
   React.useEffect(() => {
+
     window.onscroll = () => {
       if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
           document.getElementsByClassName('appbar')[0].style.backgroundColor ="white";
-          document.getElementsByClassName('title')[0].style.color = "rgba(0, 0, 0, 0.8)";
+          // document.getElementsByClassName('title')[0].style.color = "rgba(0, 0, 0, 0.8)";
+            changeTitleColor("#000000");
           document.getElementsByClassName('menu')[0].style.color = "black";
               if (isMobile){
-
-                document.getElementsByClassName('title')[0].style.fontSize = "5vw";
-                document.getElementsByClassName('title')[0].style.color = "rgba(0, 0, 0, 0.8)";
-                document.getElementById('menuButton').style.color= "rgba(0, 0, 0, 0.8)";  
+    
+                changeTitleFont("7vw")
+                changeTitleColor("#000000");
+                    // document.getElementsByClassName('title')[0].style.fontSize = "5vw";
+                    // document.getElementsByClassName('title')[0].style.color = "rgba(0, 0, 0, 0.8)";
+                document.getElementById('menuButton').style.color= "rgba(0, 0, 0, 0.8)";
       
               }
                           
                     else
-                          document.getElementsByClassName('title')[0].style.fontSize = "2.6vw";
-                
+                          // document.getElementsByClassName('title')[0].style.fontSize = "2.6vw";
+                          changeTitleFont("2.6vw")                
               }
         else{
           document.getElementsByClassName('appbar')[0].style.backgroundColor ="transparent";
-          document.getElementsByClassName('title')[0].style.color = "white";
+          // document.getElementsByClassName('title')[0].style.color = "white";
+              changeTitleColor('white');
           document.getElementsByClassName('menu')[0].style.color = "white";
-          if (isMobile){
-                document.getElementsByClassName('title')[0].style.fontSize = "6vw";
+            if (isMobile){
+                    changeTitleFont("9vw")
+                // document.getElementsByClassName('title')[0].style.fontSize = "6vw";
                 document.getElementById('menuButton').style.color= "white";  
 
                   }
                   
                   else
-                  document.getElementsByClassName('title')[0].style.fontSize = "3.7vw";  
+                    changeTitleFont("3.7vw")
+                    // document.getElementsByClassName('title')[0].style.fontSize = "3.7vw";  
                   // document.getElementById('menuButton').style.color= "black";  
-                }
-  
+                }         
+               
               }
 
   }, []);
@@ -67,22 +78,13 @@ export default function ButtonAppBar() {
             <MobileMenu />
           </div>  
                 </td>
-                {/* <IconButton edge="start" id="menuButton" className={classes.menuButton} color="inherit" aria-label="menu">
-                  <MenuIcon />
-                </IconButton> */}
           <td className="td2">
-          <div className="title"
-          // data-aos="zoom-in"
-          // data-aos-offset="200"
-         // data-aos-delay="50"
-          // data-aos-duration="1000"
-          // data-aos-easing="ease-in-out-quart"
-          // data-aos-mirror="true"
-          // data-aos-once="false"
-          // data-aos-anchor-placement="top-bottom"
-        >
-            Dateb.ai
-     </div>
+                      <div className="title" id="title2">
+                        <DatebAnime  titleColor={titleColor} titleFont={titleFont}/>
+                      </div>
+                      {/* <div className={classes.title} id="title">
+                        <div className="title">Dateb.ai</div>
+                      </div> */}
          </td>
           
           <td className="td3">

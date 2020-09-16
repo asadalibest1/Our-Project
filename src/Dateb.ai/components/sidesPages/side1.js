@@ -29,7 +29,7 @@ export default function Side1() {
             </div>
         </Grid>
         <Grid item xs={12} sm={6} className="grid2">
-                    <img className="slide-img" src={require('../images/image1.gif')} alt="pic1"/>
+                    <img className="slide-img" src={require('../images/staf.png')} alt="about"/>
         </Grid>
       
             </Grid>

@@ -22,7 +22,7 @@ export default function JoinUS() {
         >        
  
         <Grid item xs={12} sm={6} className="grid1">
-                    <img className="slide-img" src="https://media1.tenor.com/images/123e5015511a2580ccef40be6f1ee0cd/tenor.gif?itemid=17862734" alt="join us"/>
+                    <img className="slide-img" src={require("../images/joinUs.jpg")} alt="join us"/>
         </Grid>
 
       <Grid item xs={12} sm={6} className="grid2">
