@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Dateb.ai/static/css/main.c7bdbbe0.chunk.css",
-    "main.js": "/Dateb.ai/static/js/main.cab0a5fa.chunk.js",
-    "main.js.map": "/Dateb.ai/static/js/main.cab0a5fa.chunk.js.map",
+    "main.css": "/Dateb.ai/static/css/main.93b5298b.chunk.css",
+    "main.js": "/Dateb.ai/static/js/main.8e35f039.chunk.js",
+    "main.js.map": "/Dateb.ai/static/js/main.8e35f039.chunk.js.map",
     "runtime-main.js": "/Dateb.ai/static/js/runtime-main.4211953d.js",
     "runtime-main.js.map": "/Dateb.ai/static/js/runtime-main.4211953d.js.map",
     "static/css/2.d3647f46.chunk.css": "/Dateb.ai/static/css/2.d3647f46.chunk.css",
-    "static/js/2.a56dc93c.chunk.js": "/Dateb.ai/static/js/2.a56dc93c.chunk.js",
-    "static/js/2.a56dc93c.chunk.js.map": "/Dateb.ai/static/js/2.a56dc93c.chunk.js.map",
+    "static/js/2.47341375.chunk.js": "/Dateb.ai/static/js/2.47341375.chunk.js",
+    "static/js/2.47341375.chunk.js.map": "/Dateb.ai/static/js/2.47341375.chunk.js.map",
     "index.html": "/Dateb.ai/index.html",
-    "precache-manifest.cf793d77ea454e9bdefe66f2a27d1b44.js": "/Dateb.ai/precache-manifest.cf793d77ea454e9bdefe66f2a27d1b44.js",
+    "precache-manifest.dc252da00e5557b52bc4c69a779119e0.js": "/Dateb.ai/precache-manifest.dc252da00e5557b52bc4c69a779119e0.js",
     "service-worker.js": "/Dateb.ai/service-worker.js",
     "static/css/2.d3647f46.chunk.css.map": "/Dateb.ai/static/css/2.d3647f46.chunk.css.map",
-    "static/css/main.c7bdbbe0.chunk.css.map": "/Dateb.ai/static/css/main.c7bdbbe0.chunk.css.map",
-    "static/js/2.a56dc93c.chunk.js.LICENSE.txt": "/Dateb.ai/static/js/2.a56dc93c.chunk.js.LICENSE.txt",
+    "static/css/main.93b5298b.chunk.css.map": "/Dateb.ai/static/css/main.93b5298b.chunk.css.map",
+    "static/js/2.47341375.chunk.js.LICENSE.txt": "/Dateb.ai/static/js/2.47341375.chunk.js.LICENSE.txt",
     "static/media/0staf.png": "/Dateb.ai/static/media/0staf.45e569a1.png",
     "static/media/services.css": "/Dateb.ai/static/media/staticWeb.08a3587d.jpg",
     "static/media/animate.scss": "/Dateb.ai/static/media/webDev2.6341b5f1.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.4211953d.js",
     "static/css/2.d3647f46.chunk.css",
-    "static/js/2.a56dc93c.chunk.js",
-    "static/css/main.c7bdbbe0.chunk.css",
-    "static/js/main.cab0a5fa.chunk.js"
+    "static/js/2.47341375.chunk.js",
+    "static/css/main.93b5298b.chunk.css",
+    "static/js/main.8e35f039.chunk.js"
   ]
 }
