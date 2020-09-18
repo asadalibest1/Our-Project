@@ -15,7 +15,7 @@ export default function DatebAnime(props) {
     },[props])
     return (
    <>
-   <div class="anime-main-div">
+   <div className="anime-main-div">
             <div className="main">
                 Dat
                 <span className="letter">

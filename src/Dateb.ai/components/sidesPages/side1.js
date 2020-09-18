@@ -9,9 +9,9 @@ export default function Side1() {
     data-aos="fade-down"
     data-aos-offset="200"
     // data-aos-delay="50"
-    data-aos-duration="1500"
-    data-aos-easing="ease-in-back"
-    data-aos-mirror="false"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
     data-aos-once="true"
     data-aos-anchor-placement="top-bottom"
             >        

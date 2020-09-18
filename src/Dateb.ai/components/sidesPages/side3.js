@@ -3,15 +3,14 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
 import 'react-awesome-slider/dist/styles.css';
-
-import Styles from '../css/scss/animate.scss';
-
+import '../css/scss/animate.scss';
+// import "../css/side3.scss";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 export default  function Side3(){
 return(
-        <div className="side3-parent-div">
+          <div className="side3-parent-div">
           <div className="side3-main-div"
             data-aos="zoom-in"
             data-aos-offset="200"
@@ -23,11 +22,13 @@ return(
             data-aos-anchor-placement="top-bottom"          
           >
           <AutoplaySlider
+          className="side3-slider"
+                // style={{ height: "400px"}}
         //     organicArrows="false"
         //     buttons="true"
             animation="scaleOutAnimation"
             play={true}
-            transitionDelay="700"
+            transitionDelay={700}
             cancelOnInteraction={false} // should stop playing on user interaction
             interval={4000}
                 buttons={false}
@@ -61,25 +62,10 @@ return(
                                  <h2>So, are you Ready to Innovate and Grow</h2>
                     </div>
                 </div>
-            </div>
-
-
-{/* src={require("../images/slidePics/pic4.jpg")}
-src={require("../images/slidePics/pic2.jpg")}
-src={require("../images/slidePics/pic3.png")} */}
-             {/* <div className="slide1">
-                    <h2>Are you Ready to Innovate and Grow</h2>
-             </div>
-            <div className="slide2">
-                    <h2>Are you Ready to Innovate and Grow</h2>
-            </div>
-            <div className="slide3">
-                    <h2>Are you Ready to Innovate and Grow</h2>
-            </div> */}
-           
+            </div>           
           </AutoplaySlider>
           </div>
-        </div>
+          </div>
         )
 };
 

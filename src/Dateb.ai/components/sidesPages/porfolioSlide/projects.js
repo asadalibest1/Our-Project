@@ -51,6 +51,7 @@ const changeSlide =()=>{
     return (
   <>
   <div style={{ overflow: "hidden" }}>
+    
 <div className="minDivPojects"
     data-aos="zoom-out"
     data-aos-offset="200"
@@ -117,7 +118,7 @@ const changeSlide =()=>{
         {/* <button className={"showLess"} style={{display: "none"}} onClick={changeSlide}>Show Less</button> */}
       {/* <div className="showLessButton"> */}
       
-    <div class="btn btn-three" style={{display: "none", marginTop: "50px"}} onClick={changeSlide} id="showLess">
+    <div className="btn btn-three" style={{display: "none", marginTop: "50px"}} onClick={changeSlide} id="showLess">
       <span id="buttonShowLess">Show Less</span>
     </div>
     {/* </div> */}

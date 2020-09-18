@@ -13,12 +13,12 @@ export default function WhyChooseUs() {
         <div className="whyChooseUs">
             <h1 className="head"
                 data-aos="fade-down"
-                data-aos-offset="300"
+                data-aos-offset="200"
                 // data-aos-delay="50"
                 data-aos-duration="700"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="false"
-                data-aos-once="true"
+                data-aos-once="false"
                 data-aos-anchor-placement="top-bottom"
             >
             Why Choose Dateb?</h1>
@@ -28,12 +28,12 @@ export default function WhyChooseUs() {
             
             <div
              data-aos="flip-right"
-                data-aos-offset="300"
+                data-aos-offset="200"
                 // data-aos-delay="50"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="false"
-                data-aos-once="true"
+                data-aos-once="false"
                 data-aos-anchor-placement="top-bottom"
             >
             <IconButton  className="iconButton" color="inherit" aria-label="menu">
@@ -45,12 +45,12 @@ export default function WhyChooseUs() {
             
             <div
              data-aos="flip-down"
-                data-aos-offset="300"
+                data-aos-offset="200"
                 data-aos-delay="300"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="false"
-                data-aos-once="true"
+                data-aos-once="false"
                 data-aos-anchor-placement="top-bottom"
             >
             <IconButton  className="iconButton" color="inherit" aria-label="menu">
@@ -62,12 +62,12 @@ export default function WhyChooseUs() {
         
             <div
              data-aos="flip-left"
-                data-aos-offset="300"
+                data-aos-offset="200"
                 data-aos-delay="600"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="false"
-                data-aos-once="true"
+                data-aos-once="false"
                 data-aos-anchor-placement="top-bottom"
             >
             <IconButton  className="iconButton" color="inherit" aria-label="menu">
@@ -80,12 +80,12 @@ export default function WhyChooseUs() {
         
             <div
              data-aos="flip-up"
-                data-aos-offset="300"
+                data-aos-offset="200"
                 data-aos-delay="900"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="false"
-                data-aos-once="true"
+                data-aos-once="false"
                 data-aos-anchor-placement="top-bottom"
             >
             <IconButton  className="iconButton" color="inherit" aria-label="menu">

@@ -2,7 +2,6 @@ import React from 'react'
 import Button from '@material-ui/core/Button';
 import './css/header.css';
 import Mousedown from './images/mousedown.gif' 
-import DownwardArrow from './downwardArrow';
 import HeaderAnimation from './headerAnimation';
 
 export default function Header() {
@@ -25,13 +24,12 @@ React.useEffect(()=>{
                       data-aos-once="false"
                       data-aos-anchor-placement="top-bottom"
             >
-            {/* <h1>Welcome to Dateb.ai</h1> */}
-            <HeaderAnimation />
+            
+                    <HeaderAnimation /> {/*Welcome to Dateb.ai*/}
             <p>Collections of color components for material-ui. No dependencies, small, highly<br /> customizable and theming support !</p>
 
             <Button variant="outlined" color="default">Get Started</Button>
             <Button variant="outlined" color="default">Contact</Button>
-                {/* <DatebAnime /> */}
             </div>
             
         <div className="mousedown-div">
